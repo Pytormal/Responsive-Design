@@ -19,11 +19,12 @@ nav {
   .top-nav {
     @media @Mmmobile {
       .flex-column;
+
       img {
-        height: 10rem;
+        height: 8rem;
       }
     }
-    @media @Llmobile {
+    @media @Ttablet {
       .search2 {
         display: none;
       }
@@ -39,59 +40,50 @@ nav {
     #myLinks {
       @media @Smobile {
         position: absolute;
-      }
-      a {
-        @media @Lmobile {
-          // display: block;
-          font-size: 1.2rem;
-        }
-        @media @tablet {
-          // display: block;
-          font-size: 1.3rem;
-        }
-        @media @desktop {
-          // display: block;
-          font-size: 1.5rem;
-        }
-        @media @4k {
-          // display: block;
-          font-size: 3rem;
-        }
-      }
-    }
-    // menu bar
-    a {
-      @media @SSsmobile {
-        display: block;
-        font-size: 0.8rem;
-      }
-      @media @Ssmobile {
         // display: block;
         font-size: 1.2rem;
       }
-      @media @tablet {
-        // display: block;
-        font-size: 1.8rem;
-      }
-      @media @desktop {
-        // display: block;
-        font-size: 2.5rem;
-      }
-      @media @Ldesktop {
-        // display: block;
-        font-size: 3rem;
-      }
-      @media @Ldesktop {
-        // display: block;
-        font-size: 4rem;
-      }
-      @media @4k {
-        // display: block;
-        font-size: 5rem;
-        #mylinks {
-          font-size: 0.08rem;
+      // link Sizes
+      a {
+
+         @media @SSsmobile {
+          font-size: 1rem;
+          padding:.2rem;
+        }
+        @media @Mmobile {
+          font-size: 2rem;
+        }
+        @media @Lmobile {
+          font-size: 2.2rem;
+        }
+        @media @tablet {
+          font-size: 2.6rem;
+        }
+        @media @Ldesktop {
+          font-size: 2.8rem;
+        }
+            @media @4k {
+          font-size: 3.5rem;
         }
       }
+    }
+    // menu button size
+    a{
+         @media @Mmobile {
+          font-size: 2.2rem;
+        }
+        @media @Lmobile {
+          font-size: 2.6rem;
+        }
+        @media @tablet {
+          font-size: 2.8rem;
+        }
+        @media @Ldesktop {
+          font-size: 3rem;
+        }
+            @media @4k {
+          font-size: 3.8rem;
+        }
     }
   }
 }

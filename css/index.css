@@ -447,10 +447,10 @@ main #myCarousel .carousel-inner img {
     align-items: center;
   }
   nav .top-nav img {
-    height: 10rem;
+    height: 8rem;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   nav .top-nav .search2 {
     display: none;
   }
@@ -466,47 +466,53 @@ main #myCarousel .carousel-inner img {
 @media (min-width: 320px) {
   nav .menu-button #myLinks {
     position: absolute;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 280px) {
+  nav .menu-button #myLinks a {
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+}
+@media (min-width: 375px) {
+  nav .menu-button #myLinks a {
+    font-size: 2rem;
   }
 }
 @media (min-width: 425px) {
   nav .menu-button #myLinks a {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
 }
 @media (min-width: 768px) {
   nav .menu-button #myLinks a {
-    font-size: 1.3rem;
+    font-size: 2.6rem;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   nav .menu-button #myLinks a {
-    font-size: 1.5rem;
+    font-size: 2.8rem;
   }
 }
 @media (min-width: 2560px) {
   nav .menu-button #myLinks a {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
-@media (max-width: 280px) {
+@media (min-width: 375px) {
   nav .menu-button a {
-    display: block;
-    font-size: 0.8rem;
+    font-size: 2.2rem;
   }
 }
-@media (max-width: 320px) {
+@media (min-width: 425px) {
   nav .menu-button a {
-    font-size: 1.2rem;
+    font-size: 2.6rem;
   }
 }
 @media (min-width: 768px) {
   nav .menu-button a {
-    font-size: 1.8rem;
-  }
-}
-@media (min-width: 1024px) {
-  nav .menu-button a {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 }
 @media (min-width: 1440px) {
@@ -514,17 +520,9 @@ main #myCarousel .carousel-inner img {
     font-size: 3rem;
   }
 }
-@media (min-width: 1440px) {
-  nav .menu-button a {
-    font-size: 4rem;
-  }
-}
 @media (min-width: 2560px) {
   nav .menu-button a {
-    font-size: 5rem;
-  }
-  nav .menu-button a #mylinks {
-    font-size: 0.08rem;
+    font-size: 3.8rem;
   }
 }
 @media (min-width: 375px) {
