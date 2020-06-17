@@ -259,6 +259,58 @@ body {
   color: #f16392;
   text-decoration: none;
 }
+/* width */
+::-webkit-scrollbar {
+  height: 100px;
+  overflow: auto;
+  direction: ltr;
+  display: block;
+  position: relative;
+  width: 12px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #f10dd365 5%, violet 100%);
+  background-color: #a85f58;
+  border-radius: 0.6rem;
+  border: 0.1rem solid #26d8b4;
+  display: inline-block;
+  cursor: pointer;
+  color: snow;
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.6rem 2.4rem;
+  text-decoration: none;
+  text-shadow: 0rem 0.1rem 0rem #b23e35;
+  transition: 0.5s;
+}
+::-webkit-scrollbar-track:hover {
+  background: linear-gradient(to bottom, #2e0702 40%, #ac12e479 70%);
+  border-radius: 0.2rem;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #0dd8c0 5%, #e412e4 100%);
+  background-color: #fc8d83;
+  border-radius: 0.6rem;
+  border: 0.1rem solid #d83526;
+  display: inline-block;
+  cursor: pointer;
+  color: snow;
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.6rem 2.4rem;
+  text-decoration: none;
+  text-shadow: 0rem 0.1rem 0rem #b23e35;
+  transition: 0.5s;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #f32206 40%, #e4c412 70%);
+  border-radius: 0.2rem;
+}
 nav h1 {
   font-size: 1.2rem;
 }
