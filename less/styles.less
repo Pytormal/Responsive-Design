@@ -13,6 +13,7 @@ nav {
         yellow 45%,
         crimson 70%
       );
+
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -22,12 +23,15 @@ nav {
       transition: background-position 1s;
     }
   }
+  // logo, Home button
   img:hover {
     -webkit-filter: brightness(0.6) contrast(3.4) hue-rotate(217deg)
       saturate(9.9);
     filter: brightness(0.6) contrast(3.4) hue-rotate(217deg) saturate(9.9);
   }
 }
+
+// bios block
 header {
   .flex-column;
   align-items: flex-end;
@@ -46,6 +50,7 @@ header {
       font-size: 1rem;
     }
   }
+
   @media @Mmobile {
     div {
       padding: 2rem 1rem;
@@ -59,16 +64,20 @@ header {
     }
   }
 }
+
+// content
 body {
   height: 100vh;
 }
 
+// page 2
 .page2 {
   .flex-column;
   img {
     width: 30%;
     height: auto;
   }
+
   // margin: auto;
   .about-me-bio2 {
     h2 {
@@ -82,13 +91,16 @@ body {
     }
   }
 }
+
 // img{
 //   display:relative;
 // }
 // .horizontal-scroll img:hover{
 // border:2rem solid crimson;
 // }
-/* button */
+
+
+// button 1 "Contact Me"
 .button {
   box-shadow: inset 0rem 0.1rem 0rem 0rem #572723b7;
   background: linear-gradient(to bottom, #fc8d83 5%, violet 100%);
@@ -115,10 +127,9 @@ body {
   position: relative;
   top: 0.1rem;
 }
-/* end of button 1*/
+// end of button 1
 
-// button 2
-
+// button 2 "My Projects"
 .button2 {
   box-shadow: inset 0rem 0.1rem 0rem 0rem #572723b7;
   background: linear-gradient(to bottom, #854a45 5%, violet 100%);
@@ -148,6 +159,7 @@ body {
 
 // end of button 2
 
+// Social Media Links
 .fa-do a:hover {
   background-color: #23cec000;
   color: #f16392;

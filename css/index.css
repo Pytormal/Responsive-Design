@@ -202,7 +202,6 @@ body {
     width: 40vw;
   }
 }
-/* button */
 .button {
   box-shadow: inset 0rem 0.1rem 0rem 0rem #572723b7;
   background: linear-gradient(to bottom, #fc8d83 5%, violet 100%);
@@ -229,7 +228,6 @@ body {
   position: relative;
   top: 0.1rem;
 }
-/* end of button 1*/
 .button2 {
   box-shadow: inset 0rem 0.1rem 0rem 0rem #572723b7;
   background: linear-gradient(to bottom, #854a45 5%, violet 100%);
@@ -262,7 +260,7 @@ body {
   text-decoration: none;
 }
 nav h1 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 nav .top-nav {
   background-color: skyblue;
@@ -426,7 +424,7 @@ main #myCarousel .carousel-inner img {
 }
 @media (min-width: 375px) {
   nav h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 425px) {
@@ -436,7 +434,7 @@ main #myCarousel .carousel-inner img {
 }
 @media (min-width: 1024px) {
   nav h1 {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 375px) {
@@ -448,6 +446,14 @@ main #myCarousel .carousel-inner img {
   }
   nav .top-nav img {
     height: 8rem;
+  }
+}
+@media (min-width: 425px) {
+  nav .top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
   }
 }
 @media (max-width: 768px) {
